@@ -54,3 +54,9 @@ class Rectangle:
 while length == 0:
     print("Input cannot be 0!")
     length = float(input("Enter length: "))
+
+    width = float(input("Enter width: "))
+
+while width == 0:
+    print("Input cannot be 0!")
+    width = float(input("Enter width: "))
