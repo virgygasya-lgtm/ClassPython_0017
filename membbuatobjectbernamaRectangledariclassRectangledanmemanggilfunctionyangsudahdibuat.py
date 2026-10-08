@@ -60,3 +60,9 @@ while length == 0:
 while width == 0:
     print("Input cannot be 0!")
     width = float(input("Enter width: "))
+
+    rectangle = Rectangle(length, width)
+
+print(rectangle)
+print("Circumference:", rectangle.circumference(), "cm")
+print("Area:", rectangle.area(), "cm²")
