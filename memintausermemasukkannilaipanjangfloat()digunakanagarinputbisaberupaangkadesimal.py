@@ -48,3 +48,9 @@ class Rectangle:
 
     def __str__(self):
         return f"Rectangle, {self.length} cm long, and {self.width} cm wide"
+
+        length = float(input("Enter length: "))
+
+while length == 0:
+    print("Input cannot be 0!")
+    length = float(input("Enter length: "))
